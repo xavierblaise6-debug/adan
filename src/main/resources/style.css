@@ -1,0 +1,17 @@
+/* MediConnect GUI standards (SWD Form 4) */
+.root { -fx-font-family: "Segoe UI", Arial, sans-serif; -fx-font-size: 13px; -fx-background-color: #F4F7FA; }
+.view { -fx-padding: 16; -fx-background-color: #F4F7FA; }
+.title-label { -fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #0B3C5D; }
+.caption { -fx-font-size: 13px; -fx-text-fill: #1F2933; -fx-font-weight: bold; }
+.text-field, .combo-box, .date-picker, .password-field, .text-area { -fx-background-color: #FFFFFF; -fx-text-fill: #1F2933; }
+.button { -fx-background-color: #1D70B8; -fx-text-fill: #FFFFFF; -fx-font-weight: bold; -fx-cursor: hand; -fx-background-radius: 4; }
+.button:hover { -fx-background-color: #155A94; }
+.button.danger { -fx-background-color: #B3261E; }
+.button.secondary { -fx-background-color: #5F6B76; }
+.nav-bar { -fx-background-color: #0B3C5D; -fx-padding: 12; }
+.nav-bar .button { -fx-background-color: transparent; -fx-text-fill: #FFFFFF; -fx-alignment: CENTER_LEFT; -fx-pref-width: 170; }
+.nav-bar .button:hover { -fx-background-color: #1D70B8; }
+.header-bar { -fx-background-color: #FFFFFF; -fx-padding: 10 16 10 16; -fx-border-color: #D9E2EC; -fx-border-width: 0 0 1 0; }
+.status-label { -fx-text-fill: #5F6B76; }
+.error-label { -fx-text-fill: #B3261E; }
+.receipt { -fx-font-family: "Consolas", "Monospaced"; -fx-font-size: 12px; }
